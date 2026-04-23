@@ -30,7 +30,7 @@ function Footer() {
             {/* GitHub */}
             <li className="social-icons">
               <a
-                href="https://github.com/Rishi"   // 🔴 replace
+                href="https://github.com/Rishitarkar"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -42,7 +42,7 @@ function Footer() {
             {/* LinkedIn */}
             <li className="social-icons">
               <a
-                href="https://linkedin.com/in/Rishi"   // 🔴 replace
+                href="https://www.linkedin.com/in/rishi-tarkar-23b817253/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -54,7 +54,7 @@ function Footer() {
             {/* Instagram (optional) */}
             <li className="social-icons">
               <a
-                href="https://instagram.com/yourusername"   // optional
+                href="https://www.instagram.com/rishiithaakur?igsh=bGY3OHFjZWwzZGRv&utm_source=qr"  
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
