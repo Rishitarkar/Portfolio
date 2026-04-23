@@ -35,25 +35,18 @@ function ResumeNew() {
         </Row>
 
         {/* Resume Preview */}
-        <Row
-  className="resume"
-  style={{
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-  }}
->
-  <div style={{ textAlign: "center" }}>
+        <Row className="resume-container">
+  <div className="resume-wrapper">
     <Document file={pdf}>
       <Page
         pageNumber={1}
-        scale={width > 786 ? 1.5 : 0.6}
+        scale={width > 786 ? 1.4 : 0.6}
         renderTextLayer={false}
         renderAnnotationLayer={false}
       />
       <Page
         pageNumber={2}
-        scale={width > 786 ? 1.5 : 0.6}
+        scale={width > 786 ? 1.4 : 0.6}
         renderTextLayer={false}
         renderAnnotationLayer={false}
       />
